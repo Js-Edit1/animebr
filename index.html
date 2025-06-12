@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>ANIME BR - Portal Otaku Sombrio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0b0b0b;
+      color: #f1f1f1;
+      line-height: 1.6;
+      padding: 0;
+    }
+
+    header {
+      background: linear-gradient(to right, #1a1a1a, #0d0d0d);
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 3px 10px rgba(255, 0, 0, 0.2);
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      color: white;
+      letter-spacing: 3px;
+    }
+
+    header h1 span {
+      color: red;
+      font-weight: 900;
+    }
+
+    nav {
+      margin-top: 12px;
+    }
+
+    nav a {
+      color: #ff4d4d;
+      margin: 0 18px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: text-shadow 0.3s ease;
+    }
+
+    nav a:hover {
+      text-shadow: 0 0 8px red;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: #1c1c1c;
+      border-left: 5px solid red;
+      padding: 22px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 35px rgba(255, 0, 0, 0.4);
+    }
+
+    .card h2 {
+      color: #ff4d4d;
+      margin-bottom: 15px;
+    }
+
+    .card a {
+      color: #f25;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #0a0a0a;
+      color: #777;
+      font-size: 0.9rem;
+      border-top: 1px solid #222;
+      margin-top: 60px;
+    }
+
+    /* Galeria de gifs */
+    .gifs-section {
+      background-color: #1c1c1c;
+      padding: 25px;
+      border-left: 5px solid red;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.15);
+      margin-bottom: 40px;
+    }
+
+    .gifs-section h2 {
+      color: #ff4d4d;
+      margin-bottom: 20px;
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    .gif-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      justify-items: center;
+    }
+
+    .gif-grid img {
+      width: 150px;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .gif-grid img:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 30px rgba(255, 0, 0, 0.8);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ANIME <span>BR</span></h1>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Notícias</a>
+      <a href="#">Reviews</a>
+      <a href="#">Personagens</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>🔥 Lançamento: Solo Leveling explodiu tudo!</h2>
+      <p>Confira o episódio que deixou até Gojo sem palavras. A animação tá insana!</p>
+      <a href="#">Ler mais →</a>
+    </section>
+
+    <section class="card">
+      <h2>💀 Top 5 Animes Dark para maratonar</h2>
+      <ul>
+        <li>Tokyo Ghoul</li>
+        <li>Death Note</li>
+        <li>Chainsaw Man</li>
+        <li>Parasyte</li>
+        <li>Devilman Crybaby</li>
+      </ul>
+    </section>
+
+    <section class="gifs-section">
+      <h2>Galeria de GIFs Otaku</h2>
+      <div class="gif-grid">
+        <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcm9tYWEwMXNmcHNwNzljOGF6cW81czc5eDMwaWphbTJqMnE2MTF5ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/maINkm7zjcL4s/giphy.gif" alt="Anime Gif 1" />
+        <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTRxaWo5NXkyNnpzdDlmdzQ2b2hzemo0bXBjZ3MxN3VnY2tpMG5hNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2XflxzkBFnXi7p4eDoA/giphy.gif" alt="Anime Gif 2" />
+        <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTJtamFvYXY1d2VlYWxmOGdkbTJtYnJ5dWx4cmY3c29id3V3aHJtdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mKAc6ZZqeE4Ao/giphy.gif" alt="Anime Gif 3" />
+        <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWowcGFrNGVocmYzMjR2dzJwZzlqYWNyczZ0cXBhemlrbmF2azc1eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/c8P0srXm9BNug/giphy.gif" alt="Anime Gif 4" />
+        <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmszcDMzNHM4MmQ3aWIyenlxNnBseWthb242bnNlbjVoczdkb3F3dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/137qIhWsIf9bDW/giphy.gif" alt="Anime Gif 5" />
+        <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnp3cTEwYmRjdnBydDVma2o2NWpwamNxM3IzMmZvaXQybXRiNnJwdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PmFOCkaSDPDAk/giphy.gif" alt="Anime Gif 6" />
+        <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmlvanpoOWFsaHE0dGp6OXRpcW93dDdzdnpsM3hmZmlubzNkeG82dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0Iymo6MEqAJfHaso/giphy.gif" alt="Anime Gif 7" />
+        <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWRvNnA2MGRrb25razJndTZuOHlkbjJ3YW5sMXQ5ajF3cjl2d3J1OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ktDkLA5Hp9dM4/giphy.gif" alt="Anime Gif 8" />
+        <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmE2eDVxM3B5amMxMjJ5amR6cnhiaGxtN3R6emxsajhyOGplZzFiOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/12bF3AWU423YeA/giphy.gif" alt="Anime Gif 9" />
+        <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExajJ2eWptMTRjOTlybXIyMWd1dm9wY2RucHpuYWVyNjVvc2ZibzRveiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/12A2hq8FMIY63e/giphy.gif" alt="Anime Gif 10" />
+        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWhudzYwazR2ZTdwNXM2Ym1iMTk4amlrazhqa2M4d2V0eTVqOTBnZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/10YWqUivkQPeeJWD3u/giphy.gif" alt="Anime Gif 11" />
+        <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnkwaWVyaGJ5NW5vbmUyajFqNDJzYzhhaW1yN2pwOWJ3aWdlNnpxaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/naiatn5LxTOsU/giphy.gif" alt="Anime Gif 12" />
+        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmFic2MycWFva2p6ZTFwc2d2emplN3NuM3F0aGxlY2xvZzl6azJ0ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vxXLJxa2gDaord2eib/giphy.gif" alt="Anime Gif 13" />
+        <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTY4bm90MDkxZHFiZnBxMW85a3RzeHViZ2VvcGsyZjh4eDQ4OTJseiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8OTxSsEKzMs2A/giphy.gif" alt="Anime Gif 14" />
+        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWZxZzFqeXJ1aTA5djdha2d6M2ZsMHczeGFzeHY2dDRkdGQ3azl6eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3s0ddui7kadGg/giphy.gif" alt="Anime Gif 15" />
+        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXRmOWFwNDNtdTliZXZwZWhzeG9vMGozdG91Z2RtNGhsOGU1NXR5cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8Lc5xmvzRhlLy/giphy.gif" alt="Anime Gif 16" />
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Anime BR - 🔥</p>
+  </footer>
+</body>
+</html>
