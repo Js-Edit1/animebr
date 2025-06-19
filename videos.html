@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Vídeos | ANIME BR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0b0b0b;
+      color: #f1f1f1;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #1a1a1a, #0d0d0d);
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 3px 10px rgba(255, 0, 0, 0.2);
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      color: white;
+      letter-spacing: 3px;
+    }
+
+    header h1 span {
+      color: red;
+      font-weight: 900;
+    }
+
+    nav {
+      margin-top: 12px;
+    }
+
+    nav a {
+      color: #ff4d4d;
+      margin: 0 18px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: text-shadow 0.3s ease;
+    }
+
+    nav a:hover {
+      text-shadow: 0 0 8px red;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .video-card {
+      background-color: #1c1c1c;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-left: 5px solid red;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .video-card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 35px rgba(255, 0, 0, 0.4);
+    }
+
+    .video-card h2 {
+      color: #ff4d4d;
+      margin-bottom: 10px;
+    }
+
+    video {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #0a0a0a;
+      color: #777;
+      font-size: 0.9rem;
+      border-top: 1px solid #222;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ANIME <span>BR</span></h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="noticias.html">Notícias</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="pasta-imagens.html">Imagens</a>
+      <a href="videos.html" class="active">Vídeos</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="video-card">
+      <h2>⚔️ Dragon Ball Z - AMV Insano</h2>
+      <video controls>
+        <source src="video/DragonBallZ.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo HTML5.
+      </video>
+    </div>
+
+    <div class="video-card">
+      <h2>🔥  O Retorno de Cooler</h2>
+      <video controls>
+        <source src="video/ORetornodeCooler.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo HTML5.
+      </video>
+    </div>
+
+    <div class="video-card">
+      <h2>💀 naruto classico </h2>
+      <video controls>
+        <source src="video/narutoclassico.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo HTML5.
+      </video>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Anime BR - Portal Otaku Sombrio</p>
+  </footer>
+
+</body>
+</html>
