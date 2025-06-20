@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Notícias - Anime BR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0b0b0b;
+      color: #f1f1f1;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #1a1a1a, #0d0d0d);
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 3px 10px rgba(255, 0, 0, 0.2);
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      color: white;
+      letter-spacing: 3px;
+    }
+
+    header h1 span {
+      color: red;
+      font-weight: 900;
+    }
+
+    nav {
+      margin-top: 12px;
+    }
+
+    nav a {
+      color: #ff4d4d;
+      margin: 0 18px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: text-shadow 0.3s ease;
+    }
+
+    nav a:hover {
+      text-shadow: 0 0 8px red;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .noticia {
+      background-color: #1c1c1c;
+      border-left: 5px solid red;
+      padding: 22px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .noticia:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 35px rgba(255, 0, 0, 0.4);
+    }
+
+    .noticia h2 {
+      color: #ff4d4d;
+      margin-bottom: 10px;
+    }
+
+    .noticia p {
+      margin-bottom: 10px;
+    }
+
+    .noticia a {
+      color: #f25;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .noticia a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #0a0a0a;
+      color: #777;
+      font-size: 0.9rem;
+      border-top: 1px solid #222;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ANIME <span>BR</span></h1>
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="noticias.html">Notícias</a>
+    <a href="reviews.html">Reviews</a>
+    <a href="imagens.html">Imagens</a>
+    <a href="videos.html">Vídeos</a>
+  </nav>
+</header>
+
+<main>
+  <section class="noticia">
+    <h2>🔥 Demon Slayer bate recordes com a 4ª temporada</h2>
+    <p>O novo arco surpreendeu todos os fãs com lutas épicas e animação de outro nível!</p>
+    <a href="#">Ler mais →</a>
+  </section>
+
+  <section class="noticia">
+    <h2>💥 Jujutsu Kaisen anuncia novo filme para 2025</h2>
+    <p>Prepare-se para mais caos e feitiçaria com Gojo, Sukuna e novas maldições.</p>
+    <a href="#">Ver detalhes →</a>
+  </section>
+
+  <section class="noticia">
+    <h2>⚔️ Novo trailer de Bleach: Guerra Sangrenta</h2>
+    <p>A batalha final se aproxima e Ichigo retorna com novos poderes! Assista agora.</p>
+    <a href="#">Assistir trailer →</a>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Anime BR - Notícias sempre atualizadas 📰</p>
+</footer>
+
+</body>
+</html>
